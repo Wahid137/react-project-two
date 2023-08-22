@@ -1,5 +1,6 @@
 import styles from "./Button.module.css";
-const Button = ({ isOutline, icon, text, ...rest }) => {
+
+const Button = ({ rest }) => {
   return (
     <button
       {...rest}
