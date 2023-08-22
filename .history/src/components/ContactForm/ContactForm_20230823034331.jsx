@@ -4,7 +4,6 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 import { useState } from "react";
 import Button from "../Button/Button";
-import contactImage from "../../../public/assets/contact.svg";
 
 const ContactForm = () => {
   const [name, setName] = useState("Wahid Ahmed");
@@ -61,7 +60,7 @@ const ContactForm = () => {
         </form>
       </div>
       <div className={styles.contact_image}>
-        <img src={contactImage} alt="contact image" />
+        <img src="../../../public/assets/contact.svg" alt="contact image" />
       </div>
     </section>
   );
